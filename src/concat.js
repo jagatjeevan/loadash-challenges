@@ -1,6 +1,4 @@
-function concat(arr) {
-  return arr;
+const concat = (arr) => arr;
   // TODO : the functionality
-}
 
-module.exports = concat;
+export default concat;

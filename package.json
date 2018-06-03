@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/jagatjeevan/jestSpike#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
-    "jest": "^23.1.0"
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "regenerator-runtime": "^0.11.1"
   }
 }
