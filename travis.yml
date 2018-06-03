@@ -1,12 +1,7 @@
 language: node_js
-
 node_js:
-  - "8.4"
+  - "8"
 
-script: 
+scripts:
   - node --version
-  - npm install
   - npm run test
-
-git:
-  depth: 10
