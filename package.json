@@ -1,0 +1,24 @@
+{
+  "name": "jestSpike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagatjeevan/jestSpike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagatjeevan/jestSpike/issues"
+  },
+  "homepage": "https://github.com/jagatjeevan/jestSpike#readme",
+  "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0"
+  }
+}
