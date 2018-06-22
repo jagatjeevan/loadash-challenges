@@ -5,3 +5,4 @@ node_js:
 scripts:
   - node --version
   - npm run test
+  - npm run coverage

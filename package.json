@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "flow": "flow"
+    "flow": "flow",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,10 @@
     "babel-jest": "^23.0.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
+    "coveralls": "^3.0.1",
     "flow-bin": "^0.73.0",
     "jest": "^23.1.0",
     "regenerator-runtime": "^0.11.1"
-  }
+  },
+  "dependencies": {}
 }

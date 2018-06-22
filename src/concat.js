@@ -1,9 +1,5 @@
 // @flow
 
-const concat = (...arr: Array<mixed>): Array<mixed> => {
-  const resultArr = [];
-  arr.forEach(elem => resultArr.push(elem));
-  return resultArr;
-};
+const concat = (array: Array<mixed>, ...arrValues: Array<mixed>): Array<mixed> => array.concat(...arrValues);
 
 export default concat;
