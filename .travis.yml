@@ -4,4 +4,6 @@ node_js:
 
 script:
   - node --version
+  - npm run test
   - npm run coverage
+  - npm run report

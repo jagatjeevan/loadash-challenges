@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "flow": "flow",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "report": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
